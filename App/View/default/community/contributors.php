@@ -101,7 +101,7 @@
 	                <p>Co-Founder of the pre-alpha version of PPI in 2005. Recently kicking things off with PHPUnit integration</p>
                 </div>
                 <div class="committer">
-                    <p class="name">Alexandre Gaigalas (alexandre@gaigalas.net) - <a target="_blank" title="Github" href="http://github.com/alganet">Github</a> - <a target="_blank" href="http://about.me/alganet" title="about.me">Website</a></p>
+                    <p class="name">Alexandre Gaigalas (alexandre@gaigalas.net) - <a href="http://twitter.com/#!/alganet" title="Twitter" target="_blank">Twitter</a> - <a target="_blank" title="Github" href="http://github.com/alganet">Github</a> - <a target="_blank" href="http://about.me/alganet" title="about.me">Website</a></p>
 	                <p>Major contributions to the PPI_Form_Rule component</p>
                 </div>
             </div>
