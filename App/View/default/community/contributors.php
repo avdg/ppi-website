@@ -100,6 +100,10 @@
                     <p class="name">Johnny Mast (mastjohnny@gmail.com)</p>
 	                <p>Co-Founder of the pre-alpha version of PPI in 2005. Recently kicking things off with PHPUnit integration</p>
                 </div>
+                <div class="committer">
+                    <p class="name">Alexandre Gaigalas (alexandre@gaigalas.net) - <a target="_blank" href="http://about.me/alganet" title="about.me">About</a></p>
+	                <p>Major contributions to the PPI_Form_Rule component</p>
+                </div>
             </div>
 		</div>
         <div class="contributors-item">
