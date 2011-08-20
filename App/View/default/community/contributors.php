@@ -248,7 +248,7 @@
 					<div class="project-shortdesc">Members involved in the PPI Community</div>
 				</div>
 				<div class="links">
-					<a href="#" title="Show Contributors">Show Members</a>
+					<a href="#" title="Show Members">Show Members</a>
 				</div>
 				<div class="clear"></div>
 			</div>
