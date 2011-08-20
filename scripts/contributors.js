@@ -9,6 +9,12 @@ jQuery(document).ready(function() {
             $(this).html("Show Contributors");
         }
 
+        if ($(this).text() == "Show Members") {
+            $(this).html("Hide Members");
+        } else {
+            $(this).html("Show Members");
+        }
+
 		return false;
 	});
 
