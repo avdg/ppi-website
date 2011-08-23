@@ -5,9 +5,9 @@
 
   credit is left where credit is due.
   much inspiration was taken from these projects:
-    yui.yahooapis.com/2.8.1/build/base/base.css
-    camendesign.com/design/
-    praegnanz.de/weblog/htmlcssjs-kickstart
+	yui.yahooapis.com/2.8.1/build/base/base.css
+	camendesign.com/design/
+	praegnanz.de/weblog/htmlcssjs-kickstart
 */
 
 /*
@@ -39,7 +39,7 @@ time, mark, audio, video {
 
 article, aside, details, figcaption, figure,
 footer,.header-container, hgroup, menu, nav, section {
-    display:block;
+	display:block;
 }
 
 nav ul { list-style:none;}
@@ -70,12 +70,12 @@ input, select { vertical-align:middle;}
 
 
 /* fonts.css from the YUI Library: developer.yahoo.com/yui/
-   Refer to developer.yahoo.com/yui/3/cssfonts/ for font sizing percentages
+	Refer to developer.yahoo.com/yui/3/cssfonts/ for font sizing percentages
 
   There are three custom edits:
-   * remove arial, helvetica from explicit font stack
-   * we normalize monospace styles ourselves
-   * table font-size is reset in the HTML5 reset above so there is no need to repeat
+	* remove arial, helvetica from explicit font stack
+	* we normalize monospace styles ourselves
+	* table font-size is reset in the HTML5 reset above so there is no need to repeat
 */
 body { font: 1.0em sans-serif; *font-size:small;} /* hack retained to preserve specificity */
 
@@ -96,11 +96,11 @@ body, select, input, textarea {
   /* #444 looks better than black: twitter.com/H_FJ/statuses/11800719859 */
   color: #ADC8C5;
   /* set your base font here, to apply evenly */
-   font-family: Verdana, serif;
+	font-family: Verdana, serif;
 }
 
 /*.header-containers (h1,h2,etc) have no default font-size or margin,
-   you'll want to define those yourself. */
+	you'll want to define those yourself. */
 h1,h2,h3,h4,h5,h6 { font-weight: bold;}
 
 /* always force a scrollbar in non-IE */
@@ -145,7 +145,7 @@ textarea { overflow: auto;} /* thnx ivannikolic! www.sitepoint.com/blogs/2010/08
 .ie6 legend, .ie7 legend { margin-left: -7px;} /* thnx ivannikolic! */
 
 /* align checkboxes, radios, text inputs with their label
-   by: Thierry Koblentz tjkdesign.com/ez-css/css/base.css  */
+	by: Thierry Koblentz tjkdesign.com/ez-css/css/base.css  */
 input[type="radio"] { vertical-align: text-bottom;}
 input[type="checkbox"] { vertical-align: bottom;}
 .ie7 input[type="checkbox"] { vertical-align: baseline;}
@@ -158,20 +158,20 @@ label, input[type=button], input[type=submit], button { cursor: pointer;}
 button, input, select, textarea { margin: 0;}
 
 /* colors for form validity */
-input:valid, textarea:valid   { }
+input:valid, textarea:valid	{ }
 input:invalid, textarea:invalid {
-      border-radius: 1px;
-    -moz-box-shadow: 0px 0px 5px red;
+	  border-radius: 1px;
+	-moz-box-shadow: 0px 0px 5px red;
  -webkit-box-shadow: 0px 0px 5px red;
-         box-shadow: 0px 0px 5px red;
+		 box-shadow: 0px 0px 5px red;
 }
 .no-boxshadow input:invalid,
 .no-boxshadow textarea:invalid { background-color: #f0dddd;}
 
 
 /* These selection declarations have to be separate.
-   No text-shadow: twitter.com/miketaylr/status/12228805301
-   Also: hot pink. */
+	No text-shadow: twitter.com/miketaylr/status/12228805301
+	Also: hot pink. */
 ::-moz-selection{ background: #FF5E99; color:#fff; text-shadow: none;}
 ::selection { background:#FF5E99; color:#fff; text-shadow: none;}
 
@@ -179,11 +179,11 @@ input:invalid, textarea:invalid {
 a:link { -webkit-tap-highlight-color: #FF5E99;}
 
 /* make buttons play nice in IE:
-   www.viget.com/inspire/styling-the-button-element-in-internet-explorer/ */
+	www.viget.com/inspire/styling-the-button-element-in-internet-explorer/ */
 button {  width: auto; overflow: visible;}
 
 /* bicubic resizing for non-native sized IMG:
-   code.flickr.com/blog/2008/11/12/on-ui-quality-the-little-things-client-side-image-resizing/ */
+	code.flickr.com/blog/2008/11/12/on-ui-quality-the-little-things-client-side-image-resizing/ */
 .ie7 img { -ms-interpolation-mode: bicubic;}
 
 
@@ -196,14 +196,16 @@ button {  width: auto; overflow: visible;}
 .ir { display: block; text-indent: -999em; overflow: hidden; background-repeat: no-repeat; text-align: left; direction: ltr;}
 
 /* Hide for both screenreaders and browsers
-   css-discuss.incutio.com/wiki/Screenreader_Visibility */
+	css-discuss.incutio.com/wiki/Screenreader_Visibility */
 .hidden { display: none; visibility: hidden;}
 
 /* Hide only visually, but have it available for screenreaders
-   www.webaim.org/techniques/css/invisiblecontent/  &  j.mp/visuallyhidden  */
-.visuallyhidden { position: absolute !important;
-  clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
-  clip: rect(1px, 1px, 1px, 1px);}
+	www.webaim.org/techniques/css/invisiblecontent/  &  j.mp/visuallyhidden  */
+.visuallyhidden {
+	position: absolute !important;
+	clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+	clip: rect(1px, 1px, 1px, 1px);
+}
 
 /* Hide visually and from screenreaders, but maintain layout */
 .invisible { visibility: hidden;}
@@ -223,7 +225,7 @@ button {  width: auto; overflow: visible;}
 
 
  /* Primary Styles
-    Author: Paul Dragoonis
+	Author: Paul Dragoonis
  */
 
 h1, h2 {
@@ -233,40 +235,75 @@ h1, h2 {
 }
 
 body {
-    text-align: left;
-    background: url(../images/bg-body-bg.png) repeat;
+	text-align: left;
+	background: url(../images/bg-body-bg.png) repeat;
 }
 
 #wrapper {
-    margin: 0px auto;
+	margin: 0 auto;
 }
 
 h3, p { text-align: left; }
 
 #header {
-    width: 100%;
-    text-align: center;
-    background: url(../images/bg-header-bg.png);
+	width: 100%;
+	text-align: center;
+	background: url(../images/bg-header-bg.png);
 }
 
 .header-container {
-    width: 1000px;
-    height: 70px;
-    margin: 0px auto;
-    background: url(../images/bg-header-bg.png) repeat;
+	width: 1000px;
+	height: 70px;
+	position: relative;
+	margin: 0 auto;
+	background: url(../images/bg-header-bg.png) repeat;
 }
 
 .header-container .header-left {
-    width: 10px; height: 70px; background: url(../images/bg-header-shadow.png) repeat-y;
+	width: 10px; height: 70px; background: url(../images/bg-header-shadow.png) repeat-y;
 }
 
 .header-container .header-middle {
-    width: 980px;
+	width: 980px;
 	height: 70px;
 	background: url(../images/bg-header-page.png) repeat;
-    text-align:right;
+	text-align:right;
 	position: relative;
 }
+
+.header-container .header-middle nav {
+	position: absolute;
+	left: 280px;
+	top: 41px;
+}
+
+.header-container .header-middle nav div {
+	float: left;
+	margin-left: 12px;
+	padding: 5px 15px 5px 15px;
+	background-color: #222324
+}
+
+.header-container .header-middle nav div:first-child {
+	margin-left: 0;
+}
+
+.header-container .header-middle nav div a {
+	color: #FFF;
+	text-decoration: none;
+	font-family: "Arvo", "Verdana";
+	font-weight: normal;
+	font-size: 0.8em;
+}
+
+.header-container .header-middle nav div a.active {
+	color: #b7da25;
+}
+
+.header-container .header-middle nav div a:hover {
+	color: #b7da25;
+}
+
 .header-container .header-middle .news-item {
 	font-size:12px;
 	color:#607890;
@@ -276,44 +313,44 @@ h3, p { text-align: left; }
 	text-decoration:none;
 }
 .header-container .header-middle img {
-    top: 10px; left: 30px;
+	top: 10px; left: 30px;
 }
 .header-container .header-middle .news-item img {
 	position:relative;
 	margin-right:5px;
 	top:4px;
-	left:0px;
+	left: 0;
 }
 
 .header-container .header-right {
-    width: 10px; height: 70px; background: url(../images/bg-header-shadow.png) repeat-y;
+	width: 10px; height: 70px; background: url(../images/bg-header-shadow.png) repeat-y;
 }
 
 .header-separator {
-    height: 10px; background: url(../images/bg-header-border-page.png)
+	height: 10px; background: url(../images/bg-header-border-page.png)
 }
 
 .header-separator .green-1 {
-    height: 10px; width: 150px; background: url(../images/bg-header-border-bg.png) repeat-x;
+	height: 10px; width: 150px; background: url(../images/bg-header-border-bg.png) repeat-x;
 }
 
 .header-separator .green-2 {
-    width: 10px; height: 10px; background: url(../images/bg-header-border-shadow.png);
+	width: 10px; height: 10px; background: url(../images/bg-header-border-shadow.png);
 }
 
 .header-separator .green-3 {
-    height: 10px; width: 980px; background: url(../images/bg-header-border-page.png);
-    line-height: 10px;
-    color:#000;
+	height: 10px; width: 980px; background: url(../images/bg-header-border-page.png);
+	line-height: 10px;
+	color:#000;
 }
 
 .header-separator .green-4 {
-    width: 10px; height: 10px; background: url(../images/bg-header-border-shadow.png);
+	width: 10px; height: 10px; background: url(../images/bg-header-border-shadow.png);
 }
 
 section.main-content-container {
-    margin-top: -10px;
-    height: 500px;
+	margin-top: -10px;
+	height: 500px;
 }
 
 
@@ -325,38 +362,38 @@ section.main-content-container {
 .rel { position: relative;}
 
 .main-content-left {
-    width: 10px;
-    height: 100%;
-    background: url(../images/bg-body-shadow.png) repeat-y;
+	width: 10px;
+	height: 100%;
+	background: url(../images/bg-body-shadow.png) repeat-y;
 }
 
 .main-content-container-inner {
-    width: 1000px;
-    margin: 0px auto;
-    height: 100%;
-    background: url(../images/bg-body-shadow.png) repeat-y;
+	width: 1000px;
+	margin: 0px auto;
+	height: 100%;
+	background: url(../images/bg-body-shadow.png) repeat-y;
 }
 
 .main-content {
-    padding-top: 20px;
-    width: 1000px;
-    background-color: #222324;
+	padding-top: 20px;
+	width: 1000px;
+	background-color: #222324;
 }
 
 .main-content .item-container {
-    margin-bottom: 12px;
+	margin-bottom: 12px;
 }
 
 .main-content .item {
-    float: left;
-    height: 160px;
-    width: 430px;
+	float: left;
+	height: 160px;
+	width: 430px;
 }
 
 .main-content .item .item-content {
-    float: left;
-    width: 345px;
-    height: 159px;
+	float: left;
+	width: 345px;
+	height: 159px;
 }
 
 .main-content .item .item-content a {
@@ -365,71 +402,71 @@ section.main-content-container {
 }
 
 .main-content div.community, .main-content div.about, .main-content div.development {
-    width: 470px;
+	width: 470px;
 }
 
 .main-content div.download, .main-content div.documentation, .main-content div.github {
-    margin: 0 0 0 34px;
+	margin: 0 0 0 34px;
 }
 
 .main-content div.item img {
-    float: left;
-    margin-bottom: 21px;
-    margin-right: 20px;
+	float: left;
+	margin-bottom: 21px;
+	margin-right: 20px;
 }
 
 .main-content div.item h3 {
-    margin-bottom: 15px;
-    font-size: 17px;
-    font-weight: bold;
-    letter-spacing: 2px;
+	margin-bottom: 15px;
+	font-size: 17px;
+	font-weight: bold;
+	letter-spacing: 2px;
 }
 
 .main-content:last-child {
-    margin-bottom: 0;
+	margin-bottom: 0;
 }
 
 .main-content div.about {
-    margin: 0 0 0 30px;
+	margin: 0 0 0 30px;
 }
 .main-content div.about img {
-    margin-top: 20px;
-    margin-left: 30px;
-    margin-right: 32px;
+	margin-top: 20px;
+	margin-left: 30px;
+	margin-right: 32px;
 }
 
 .main-content div.download img {
-    margin-top: 30px;
-    margin-left: 13px;
-    margin-right: 30px;
+	margin-top: 30px;
+	margin-left: 13px;
+	margin-right: 30px;
 }
 
 .main-content div.community {
-    margin: 0 0 0 30px;
+	margin: 0 0 0 30px;
 }
 
 .main-content div.community img {
-    margin-top: 10px;
+	margin-top: 10px;
 }
 
 .main-content div.documentation img {
-    margin-top: 31px;
-    margin-left: 7px;
-    margin-right: 25px;
+	margin-top: 31px;
+	margin-left: 7px;
+	margin-right: 25px;
 }
 
 .main-content div.development {
-    margin: 0 0 0 30px;
+	margin: 0 0 0 30px;
 }
 
 .main-content div.development img {
-    margin-top: 20px;
-    margin-right: 43px;
+	margin-top: 20px;
+	margin-right: 43px;
 }
 
 .main-content div.github img {
-    margin-top: 20px;
-    margin-right: 23px;
+	margin-top: 20px;
+	margin-right: 23px;
 }
 
 .main-content .download ul.downloads-list {
@@ -450,20 +487,20 @@ section.main-content-container {
 
 .gplusone-container {
 	position: absolute;
-	bottom: 0px;
-	right: 145px;
+	top: 4px;
+	right: -10px;
 }
 
 .facebooklike-container {
 	position: absolute;
-	bottom: -5px;
-	right: -30px;
+	top: 27px;
+	right: 2px;
 }
 
 .twitterlike-contaner {
 	position: absolute;
-	bottom: 0;
-	right: 80px;
+	bottom: -3px;
+	right: 0px;
 }
 
 .grey-button {
@@ -471,27 +508,27 @@ section.main-content-container {
 	width: auto;
 	padding: 5px;
 	color: #A2A2A2;
-   /* Safari 4+, Chrome 1-9 */
-   background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#464648), to(#313131));
+	/* Safari 4+, Chrome 1-9 */
+	background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#464648), to(#313131));
 
-   /* Safari 5.1+, Mobile Safari, Chrome 10+ */
-   background-image: -webkit-linear-gradient(top, #464648, #313131);
+	/* Safari 5.1+, Mobile Safari, Chrome 10+ */
+	background-image: -webkit-linear-gradient(top, #464648, #313131);
 
-   /* Firefox 3.6+ */
-   background-image: -moz-linear-gradient(top, #464648, #313131);
+	/* Firefox 3.6+ */
+	background-image: -moz-linear-gradient(top, #464648, #313131);
 
-   /* IE 10+ */
-   background-image: -ms-linear-gradient(top, #464648, #313131);
+	/* IE 10+ */
+	background-image: -ms-linear-gradient(top, #464648, #313131);
 
-   /* Opera 11.10+ */
-   background-image: -o-linear-gradient(top, #464648, #313131);
+	/* Opera 11.10+ */
+	background-image: -o-linear-gradient(top, #464648, #313131);
 }
 
 .content-box {
-    padding-top: 15px; padding-bottom: 15px;
+	padding-top: 15px; padding-bottom: 15px;
 	padding-left: 20px; padding-right: 20px;
 
-    background-color: #292b2a;
+	background-color: #292b2a;
 	border: 1px solid #18191b;
 	-moz-box-shadow: 2px 2px 3px #000;
 	-webkit-box-shadow: 2px 2px 3px #000;
@@ -515,13 +552,13 @@ section.main-content-container {
 }
 
 /* Grade-A Mobile Browsers (Opera Mobile, iPhone Safari, Android Chrome)
-   Consider this: www.cloudfour.com/css-media-query-for-mobile-is-fools-gold/ */
-   /*
+	Consider this: www.cloudfour.com/css-media-query-for-mobile-is-fools-gold/ */
+	/*
 @media screen and (max-device-width: 480px) {
 */
 
   /* Uncomment if you don't want iOS and WinMobile to mobile-optimize the text for you
-     j.mp/textsizeadjust
+	 j.mp/textsizeadjust
   html { -webkit-text-size-adjust:none; -ms-text-size-adjust:none;} */
 
 /*
@@ -558,6 +595,7 @@ section div { border: 1px solid red;}
 .header-container:before, .header-container:after,
 .header-separator:before, .header-separator:after,
 .main-content-container-inner:before, .main-content-container-inner:after,
+.header-container nav:before, .header-container nav:after,
 .item-container:before, .item-container:after {
   content: "\0020"; display: block; height: 0; visibility: hidden;
 }
@@ -565,14 +603,16 @@ section div { border: 1px solid red;}
 .main-content .item-container:after,
 .header-container:after,
 .header-separator:after,
+.header-container nav:after,
 .main-content-container-inner:after,
 .item-container:after {
-    clear: both;
+	clear: both;
 }
 /* Fix clearfix: blueprintcss.lighthouseapp.com/projects/15318/tickets/5-extra-margin-padding-bottom-of-page */
 .header-containe.main-content .item-container.header-container,
 .header-separator,
 .main-content-container-inner,
+.header-container nav,
 .item-container {
-    zoom: 1;
+	zoom: 1;
 }

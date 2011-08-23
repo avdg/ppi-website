@@ -23,7 +23,7 @@ else:
             </div>
 	        <!-- /.main-content -->
         </div>
-	    <!-- /.main-content-contrainer-inner -->
+	    <!-- /.main-content-container-inner -->
     </section>
 </div> <!-- #wrapper -->
 
