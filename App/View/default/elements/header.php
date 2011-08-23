@@ -4,7 +4,7 @@
 		<div class="fl rel header-middle">
 
 			<nav>
-				<div><a href="<?= $baseUrl; ?>about" title="About">About</a></div>
+<!--				<div><a href="--><?//= $baseUrl; ?><!--about" title="About">About</a></div>-->
 				<div><a href="<?= $baseUrl; ?>downloads" title="Downloads">Downloads</a></div>
 				<div><a href="<?= $baseUrl; ?>docs" title="Documentation">Documentation</a></div>
 				<div><a href="<?= $baseUrl; ?>community" title="Community">Community</a></div>
