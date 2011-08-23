@@ -1,6 +1,3 @@
-<div class="gp" style="display: none;">
-	<g:plusone callback="testCallback"></g:plusone>
-</div>
 <div class="community-page">
 	<div class="left-side">
 		<section class="titlebox">
