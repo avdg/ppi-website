@@ -274,18 +274,55 @@ h3, p { text-align: left; }
 .header-container .header-middle nav {
 	position: absolute;
 	left: 280px;
-	top: 41px;
+	top: 39px;
 }
 
 .header-container .header-middle nav div {
 	float: left;
+	position: relative;
 	margin-left: 12px;
 	padding: 5px 15px 5px 15px;
-	background-color: #222324
+	background-color: #222324;
+	height: 22px;
 }
 
-.header-container .header-middle nav div:first-child {
+
+.header-container .header-middle nav .downloads {
+	width: 100px;
+	margin-left: 0;	
+	text-align: center;
+}
+
+.header-container .header-middle nav .downloads div.active {
+	width: 130px;
+}
+
+
+.header-container .header-middle nav .docs {
+	width: 131px;
+	text-align: center;
+}
+
+.header-container .header-middle nav .community {
+	width: 108px;
+	text-align: center;
+}
+
+.header-container .header-middle nav .community div.active {
+	width: 138px;
+}
+
+
+.header-container .header-middle nav div div.active {
 	margin-left: 0;
+	font-size: 0;
+	position: absolute;
+	top: -10px;
+	padding: 0;
+	left: 0;
+	float: none;
+	height: 10px;
+	background: url(../images/bg-header-border-page.png) repeat-x;
 }
 
 .header-container .header-middle nav div a {
