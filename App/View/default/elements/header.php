@@ -5,9 +5,21 @@
 
 			<nav>
 <!--				<div><a href="--><?//= $baseUrl; ?><!--about" title="About">About</a></div>-->
-				<div><a href="<?= $baseUrl; ?>downloads" title="Downloads">Downloads</a></div>
-				<div><a href="<?= $baseUrl; ?>docs" title="Documentation">Documentation</a></div>
-				<div><a href="<?= $baseUrl; ?>community" title="Community">Community</a></div>
+				<div class="downloads">
+					<?php if($request['controller'] == 'downloads'): ?>
+					<div class="active"></div>
+					<?php endif; ?>
+					<a href="<?= $baseUrl; ?>downloads" title="Downloads" class="<?= $request['controller'] == 'downloads' ? 'active' : ''; ?>">Downloads</a>
+				</div>
+				<div class="docs">
+					<a href="<?= $baseUrl; ?>docs" title="Documentation">Documentation</a>
+				</div>
+				<div class="community">
+					<?php if($request['controller'] == 'community'): ?>
+					<div class="active"></div>
+					<?php endif; ?>
+					<a href="<?= $baseUrl; ?>community" title="Community" class="<?= $request['controller'] == 'community' ? 'active' : ''; ?>">Community</a>
+				</div>
 			</nav>
 
 			<a href="<?= $baseUrl; ?>" title="PPI Framework"><img class="abs" src="<?= $baseUrl; ?>images/icons-logo.png" alt="PPI Logo"></a>
