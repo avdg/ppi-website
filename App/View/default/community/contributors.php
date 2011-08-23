@@ -1,9 +1,7 @@
 <div class="contributors-container content-box">
 
     <div class="page-header">
-		<h1 class="fl">Contributors</h1>
-		<div class="fr"><a href="<?=$baseUrl;?>" title="Go back to the homepage" class="back-to-homepage grey-button">Back to homepage</a></div>
-		<div class="clear"></div>
+		<h1>Contributors</h1>
 	</div>
 
 	<div class="contributors-item-container">
@@ -26,22 +24,22 @@
                 </div>
 				<div class="committer">
 					<p class="name">Davey Shafik (davey@php.net) - <a target="_blank" href="http://twitter.com/#!/dshafik" title="twitter">Twitter</a> - <a target="_blank" href="https://github.com/dshafik" title="github">Github</a></p>
-				</div>	
+				</div>
 				<div class="committer">
 					<p class="name">David Rogers (david@orlandophp.org) - <a target="_blank" href="http://twitter.com/#!/al_the_x" title="twitter">Twitter</a> - <a target="_blank" href="https://github.com/al-the-x" title="github">Github</a> - <a target="_blank" href="http://ethos-development.com" title="website">Website</a></p>
 				</div>
                 <div class="committer">
                     <p class="name">Guilherme Blanco (guilhermeblanco@php.net) - <a target="_blank" href="http://twitter.com/#!/guilhermeblanco" title="twitter">Twitter</a> - <a target="_blank" href="https://github.com/guilhermeblanco" title="github">Github</a> - <a href="http://blog.bisna.com/" title="website">Website</a></p>
-                </div>				
+                </div>
 				<div class="committer">
                     <p class="name">John Mertic (jmertic@php.net) - <a target="_blank" href="http://twitter.com/#!/jmertic" title="twitter">Twitter</a> - <a target="_blank" href="https://github.com/jmertic" title="github">Github</a> - <a target="_blank" href="http://jmertic.wordpress.com/" title="website">Website</a></p>
-				</div>				
+				</div>
 				<div class="committer">
 					<p class="name">Jordi Boggiano (seld@php.net) - <a target="_blank" href="http://twitter.com/#!/seldaek" title="twitter">Twitter</a> - <a target="_blank" href="https://github.com/seldaek" title="github">Github</a> - <a target="_blank" href="http://nelm.io/jordi" title="website">Website</a></p>
 				</div>
                 <div class="committer">
                     <p class="name">Juozas Kaziukėnas (juozas@juokaz.com) - <a target="_blank" href="http://twitter.com/#!/juokaz" title="twitter">Twitter</a> - <a target="_blank" href="https://github.com/juokaz" title="github">Github</a> - <a target="_blank" href="#http://juokaz.com" title="website">Website</a></p>
-                </div>				
+                </div>
                 <div class="committer">
                     <p class="name">Mark Schaschke (mark@fractalturtle.com) - <a target="_blank" href="http://twitter.com/#!/epitomus" title="twitter">Twitter</a> - <a target="_blank" href="https://github.com/epitomus" title="github">Github</a> - <a target="_blank" href="http://groupspaces.com/" title="website">Website</a></p>
                 </div>
@@ -239,7 +237,7 @@
                 </div>
             </div>
 		</div>
-		
+
 		<div class="contributors-item">
 			<div class="header">
 				<img class="fl logo" src="<?= $baseUrl; ?>images/icons-download.png" alt="Download">
