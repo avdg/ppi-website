@@ -1,6 +1,8 @@
 <IfModule mod_rewrite.c>
 RewriteEngine on
 Options +FollowSymLinks
-RewriteCond %{REQUEST_URI} !css|scripts|images|install
+RewriteCond %{REQUEST_FILENAME} -s [OR]
+RewriteCond %{REQUEST_FILENAME} -l [OR]
+RewriteCond %{REQUEST_FILENAME} -d
 RewriteRule .* index.php
 </IfModule>
