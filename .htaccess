@@ -1,3 +1,5 @@
+IndexIgnore .gitignore index.php
+
 <IfModule mod_rewrite.c>
 RewriteEngine on
 Options +FollowSymLinks
